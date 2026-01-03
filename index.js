@@ -17,5 +17,5 @@ mongoose
 app.use("/post", postRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server running on porr ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
